@@ -15,6 +15,6 @@ public class DynamicConfigService {
 	private String profile;
 
 	public String getConfig() {
-		return ("cacheON".equals(profile))?"cacheON":"cacheOFF";
+		return ("cacheON".equalsIgnoreCase(profile))?"cacheON":"cacheOFF";
 	}
 }
