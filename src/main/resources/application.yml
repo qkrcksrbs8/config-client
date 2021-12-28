@@ -9,7 +9,7 @@ spring:
     config: # Ex) `http://localhost:8088/config/test`
       name: config # config name
       profile: local # config profile
-      label: pcg
+      label: main
 management:
   endpoints:
     web:
